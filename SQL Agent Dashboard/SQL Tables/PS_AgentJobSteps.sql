@@ -9,6 +9,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[PS_AgentJobSteps](
+	CollectTime [datetime2](7) NULL,
 	[ComputerName] [nvarchar](max) NULL,
 	[InstanceName] [nvarchar](max) NULL,
 	[AgentJob] [varchar](90) NOT NULL,
